@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="description"
-        content="Nova is a modern and creative digital agency website crafted with HTML5 & CSS3.">
+    <meta name="description" content="Nova is a modern and creative digital agency website crafted with HTML5 & CSS3.">
     <meta name="keywords" content="Nova, Creative Agency, HTML, CSS Website, Portfolio, Web Design">
     <meta name="author" content="1M7md-CS | [Mohammad Hammad]">
 
@@ -209,13 +208,16 @@
 
                 <div class="contact-content">
 
-                    <form class="contact-form">
+                    <form class="contact-form" action="https://formspree.io/f/xaqwnkwe" method="POST">
                         <div class="input-group">
-                            <input type="text" placeholder="Your Name" required>
-                            <input type="email" placeholder="Your Email" required>
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
                         </div>
-                        <input type="text" placeholder="Subject" class="full-width" required>
-                        <textarea placeholder="Your Message" rows="6" required></textarea>
+
+                        <input type="text" name="subject" placeholder="Subject" class="full-width" required>
+
+                        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+
                         <button type="submit">
                             <span>Send Message</span>
                         </button>
