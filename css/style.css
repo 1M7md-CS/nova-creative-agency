@@ -79,7 +79,7 @@ body {
 
 @keyframes rotateGlow {
   0% {
-    background-position: 0% 100%;
+    background-position: 0 100%;
   }
 
   100% {
@@ -213,8 +213,7 @@ nav ul li a:hover::after {
 }
 
 .landing {
-  background: url(../images/landing.png);
-  background-position: center;
+  background: url(../images/landing.webp) center;
   background-size: cover;
   height: calc(100vh - 69px);
   display: flex;
