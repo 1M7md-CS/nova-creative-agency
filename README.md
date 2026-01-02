@@ -50,3 +50,17 @@ nova-creative-agency/
 - **Success**: Company achievements and statistics
 - **About**: Company information and story
 - **Contact**: Contact form and business details
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/1M7md-CS/nova-creative-agency.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd nova-creative-agency
+   ```
+
+3. Open `index.html` in your browser to view the site
